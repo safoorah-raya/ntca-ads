@@ -1,0 +1,48 @@
+{
+  "header": [
+    {
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/Resources/advertisements/header_ads/beno_j_gundlach_tools_930x80.gif",
+      "url": "https://gundlachtools.com/?utm_source=association&utm_medium=display&utm_campaign=multiview_directplacement_NTCACOM"
+    },
+    {
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/Resources/advertisements/header_ads/klassen_bronze_limited_930x8.jpg",
+      "url": "https://www.rubi.com/us/login/d10ln-max?utm_source=BannerWeb&utm_medium=BannerWeb&utm_campaign=US-D10lnMax-BannerWer&utm_id=US-D10lnMax-BannerWer"
+    },
+    {
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/Resources/advertisements/header_ads/progress_profiles_2_930x80.gif",
+      "url": "https://www.progressprofiles.com/en/?utm_source=association&utm_medium=display&utm_campaign=multiview_directplacement_NTCACOM"
+    },
+    {
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/Resources/advertisements/header_ads/rubi_tools_930x80.gif",
+      "url": "https://www.rubi.com/us/login/d10ln-max?utm_source=BannerWeb&utm_medium=BannerWeb&utm_campaign=US-D10lnMax-BannerWer&utm_id=US-D10lnMax-BannerWer"
+    },
+    {
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/Resources/advertisements/header_ads/tile_shop_930x80.gif",
+      "url": "https://www.tileshop.com/?utm_source=net&utm_medium=display&utm_campaign=neta_pro_loyalty_2024"
+    },
+    {
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/Resources/advertisements/header_ads/tuscan_leveling_930x80.jpg",
+      "url": "https://tuscanleveling.com/?utm_source=association&utm_medium=display&utm_campaign=multiview_directplacement_NTCACOM"
+    }
+  ],
+  "sidebar": [
+    {
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/Resources/advertisements/sidebar_ads/rubi_tools_160x240.gif",
+      "url": "https://www.rubi.com/us/login/d10ln-max?utm_source=BannerWeb&utm_medium=BannerWeb&utm_campaign=US-D10lnMax-BannerWer&utm_id=US-D10lnMax-BannerWer"
+    },
+    {
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/Resources/advertisements/sidebar_ads/tuscan_leveling_160x420.jpg",
+      "url": "https://tuscanleveling.com/?utm_source=association&utm_medium=display&utm_campaign=multiview_directplacement_NTCACOM"
+    }
+  ],
+  "footer": [
+    {
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/Resources/advertisements/footer_ads/rubi_tools_462x80.gif",
+      "url": "https://www.rubi.com/us/login/d10ln-max?utm_source=BannerWeb&utm_medium=BannerWeb&utm_campaign=US-D10lnMax-BannerWer&utm_id=US-D10lnMax-BannerWer"
+    },
+    {
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/Resources/advertisements/footer_ads/tuscan_leveling_462x80.jpg",
+      "url": "https://tuscanleveling.com/?utm_source=association&utm_medium=display&utm_campaign=multiview_directplacement_NTCACOM"
+    }
+  ]
+}
