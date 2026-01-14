@@ -1,65 +1,91 @@
-<script>
-(function () {
-  const jsonURL = "https://raw.githubusercontent.com/safoorah-raya/ntca-ads/main/ad-inventory.json";
-
-  const zones = {
-    header: "mvBannerBottom",
-    sidebar: "mvSkyScraper",
-    footer: "mvLowerBanner"
-  };
-
-  function isActive(ad) {
-    if (!ad.start || !ad.end) return true;
-    const now = new Date();
-    return new Date(ad.start) <= now && now <= new Date(ad.end);
-  }
-
-  function getRandomAd(ads) {
-    return ads[Math.floor(Math.random() * ads.length)];
-  }
-
-  function fireImpression(ad, zone) {
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: "ad_impression",
-      advertiser: ad.advertiser,
-      campaign: ad.campaign,
-      placement: zone,
-      image: ad.img,
-      timestamp: new Date().toISOString()
-    });
-  }
-
-  function renderAd(zone, ad) {
-    const container = document.getElementById(zones[zone]);
-    if (!container || !ad) return;
-
-    container.innerHTML = `
-      <a href="${ad.url}" target="_blank" rel="noopener noreferrer">
-        <img src="${ad.img}" alt="${ad.advertiser}" style="max-width:100%;display:block;" />
-      </a>
-    `;
-
-    fireImpression(ad, zone);
-  }
-
-  function rotateAds(data) {
-    for (const zone in zones) {
-      let ads = data[zone];
-      if (!ads || ads.length === 0) continue;
-
-      ads = ads.filter(isActive);
-      if (ads.length === 0) continue;
-
-      const cycle = () => renderAd(zone, getRandomAd(ads));
-      cycle();
-      setInterval(cycle, 6000);
+{
+  "header": [
+    {
+      "advertiser": "Beno J. Gundlach",
+      "campaign": "Website Header Advertising",
+      "placement": "header",
+      "start": "2024-10-23",
+      "end": "2025-10-22",
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/header_ads/beno_j_gundlach_tools_930x80.gif",
+      "url": "https://gundlachtools.com/?utm_source=ntca&utm_medium=display&utm_campaign=header_ad"
+    },
+    {
+      "advertiser": "Rubi Tools",
+      "campaign": "Header Display Campaign",
+      "placement": "header",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/header_ads/rubi_tools_930x80.gif",
+      "url": "https://www.rubi.com/us/?utm_source=ntca&utm_medium=display&utm_campaign=header_ad"
+    },
+    {
+      "advertiser": "Progress Profiles",
+      "campaign": "Header Display Campaign",
+      "placement": "header",
+      "start": "2024-10-01",
+      "end": "2025-03-31",
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/header_ads/progress_profiles_2_930x80.gif",
+      "url": "https://www.progressprofiles.com/en/?utm_source=ntca&utm_medium=display&utm_campaign=header_ad"
+    },
+    {
+      "advertiser": "Tile Shop",
+      "campaign": "January Header Sponsorship",
+      "placement": "header",
+      "start": "2025-01-01",
+      "end": "2025-01-31",
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/header_ads/tile_shop_930x80.gif",
+      "url": "https://www.tileshop.com/?utm_source=ntca&utm_medium=display&utm_campaign=header_ad"
+    },
+    {
+      "advertiser": "Tuscan Leveling",
+      "campaign": "Header Display Campaign",
+      "placement": "header",
+      "start": "2024-10-01",
+      "end": "2025-03-31",
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/header_ads/tuscan_leveling_930x80.jpg",
+      "url": "https://tuscanleveling.com/?utm_source=ntca&utm_medium=display&utm_campaign=header_ad"
     }
-  }
+  ],
 
-  fetch(jsonURL)
-    .then(res => res.json())
-    .then(data => rotateAds(data))
-    .catch(err => console.error("Ad load error:", err));
-})();
-</script>
+  "sidebar": [
+    {
+      "advertiser": "Rubi Tools",
+      "campaign": "Sidebar Display Campaign",
+      "placement": "sidebar",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/sidebar_ads/rubi_tools_160x240.gif",
+      "url": "https://www.rubi.com/us/?utm_source=ntca&utm_medium=display&utm_campaign=sidebar_ad"
+    },
+    {
+      "advertiser": "Tuscan Leveling",
+      "campaign": "Sidebar Display Campaign",
+      "placement": "sidebar",
+      "start": "2024-10-01",
+      "end": "2025-03-31",
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/sidebar_ads/tuscan_leveling_160x420.jpg",
+      "url": "https://tuscanleveling.com/?utm_source=ntca&utm_medium=display&utm_campaign=sidebar_ad"
+    }
+  ],
+
+  "footer": [
+    {
+      "advertiser": "Rubi Tools",
+      "campaign": "Footer Display Campaign",
+      "placement": "footer",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/footer_ads/rubi_tools_462x80.gif",
+      "url": "https://www.rubi.com/us/?utm_source=ntca&utm_medium=display&utm_campaign=footer_ad"
+    },
+    {
+      "advertiser": "Tuscan Leveling",
+      "campaign": "Footer Display Campaign",
+      "placement": "footer",
+      "start": "2024-10-01",
+      "end": "2025-03-31",
+      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/footer_ads/tuscan_leveling_462x80.jpg",
+      "url": "https://tuscanleveling.com/?utm_source=ntca&utm_medium=display&utm_campaign=footer_ad"
+    }
+  ]
+}
