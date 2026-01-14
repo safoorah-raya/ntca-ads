@@ -2,90 +2,73 @@
   "header": [
     {
       "advertiser": "Beno J. Gundlach",
-      "campaign": "Website Header Advertising",
-      "placement": "header",
-      "start": "2024-10-23",
-      "end": "2025-10-22",
+      "campaign": "Website Advertising",
       "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/header_ads/beno_j_gundlach_tools_930x80.gif",
-      "url": "https://gundlachtools.com/?utm_source=ntca&utm_medium=display&utm_campaign=header_ad"
+      "url": "https://gundlachtools.com/?utm_source=association&utm_medium=display&utm_campaign=ntca_header",
+      "start": "2024-10-23",
+      "end": "2025-01-22"
     },
     {
       "advertiser": "Rubi Tools",
-      "campaign": "Header Display Campaign",
-      "placement": "header",
-      "start": "2024-07-01",
-      "end": "2025-06-30",
+      "campaign": "Website Advertising",
       "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/header_ads/rubi_tools_930x80.gif",
-      "url": "https://www.rubi.com/us/?utm_source=ntca&utm_medium=display&utm_campaign=header_ad"
+      "url": "https://www.rubi.com/us/landing/dt10in-max?utm_source=ntca&utm_medium=display&utm_campaign=header",
+      "start": "2024-07-13",
+      "end": "2025-01-12"
     },
     {
       "advertiser": "Progress Profiles",
-      "campaign": "Header Display Campaign",
-      "placement": "header",
-      "start": "2024-10-01",
-      "end": "2025-03-31",
+      "campaign": "Website Advertising",
       "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/header_ads/progress_profiles_2_930x80.gif",
-      "url": "https://www.progressprofiles.com/en/?utm_source=ntca&utm_medium=display&utm_campaign=header_ad"
+      "url": "https://www.progressprofiles.com/en/?utm_source=ntca&utm_medium=display&utm_campaign=header",
+      "start": "2024-10-15",
+      "end": "2025-01-14"
     },
     {
       "advertiser": "Tile Shop",
-      "campaign": "January Header Sponsorship",
-      "placement": "header",
-      "start": "2025-01-01",
-      "end": "2025-01-31",
+      "campaign": "Website Advertising",
       "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/header_ads/tile_shop_930x80.gif",
-      "url": "https://www.tileshop.com/?utm_source=ntca&utm_medium=display&utm_campaign=header_ad"
-    },
-    {
-      "advertiser": "Tuscan Leveling",
-      "campaign": "Header Display Campaign",
-      "placement": "header",
-      "start": "2024-10-01",
-      "end": "2025-03-31",
-      "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/header_ads/tuscan_leveling_930x80.jpg",
-      "url": "https://tuscanleveling.com/?utm_source=ntca&utm_medium=display&utm_campaign=header_ad"
+      "url": "https://www.tileshop.com/pro-network?utm_source=ntca&utm_medium=display&utm_campaign=header",
+      "start": "2024-09-17",
+      "end": "2025-09-16"
     }
   ],
 
   "sidebar": [
     {
       "advertiser": "Rubi Tools",
-      "campaign": "Sidebar Display Campaign",
-      "placement": "sidebar",
-      "start": "2024-07-01",
-      "end": "2025-06-30",
+      "campaign": "Website Advertising",
       "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/sidebar_ads/rubi_tools_160x240.gif",
-      "url": "https://www.rubi.com/us/?utm_source=ntca&utm_medium=display&utm_campaign=sidebar_ad"
+      "url": "https://www.rubi.com/us/landing/dt10in-max?utm_source=ntca&utm_medium=display&utm_campaign=sidebar",
+      "start": "2024-07-13",
+      "end": "2025-01-12"
     },
     {
       "advertiser": "Tuscan Leveling",
-      "campaign": "Sidebar Display Campaign",
-      "placement": "sidebar",
-      "start": "2024-10-01",
-      "end": "2025-03-31",
+      "campaign": "Website Advertising",
       "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/sidebar_ads/tuscan_leveling_160x420.jpg",
-      "url": "https://tuscanleveling.com/?utm_source=ntca&utm_medium=display&utm_campaign=sidebar_ad"
+      "url": "https://tuscanleveling.com/?utm_source=ntca&utm_medium=display&utm_campaign=sidebar",
+      "start": "2025-01-09",
+      "end": "2026-01-08"
     }
   ],
 
   "footer": [
     {
       "advertiser": "Rubi Tools",
-      "campaign": "Footer Display Campaign",
-      "placement": "footer",
-      "start": "2024-07-01",
-      "end": "2025-06-30",
+      "campaign": "Website Advertising",
       "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/footer_ads/rubi_tools_462x80.gif",
-      "url": "https://www.rubi.com/us/?utm_source=ntca&utm_medium=display&utm_campaign=footer_ad"
+      "url": "https://www.rubi.com/us/landing/dt10in-max?utm_source=ntca&utm_medium=display&utm_campaign=footer",
+      "start": "2024-07-13",
+      "end": "2025-01-12"
     },
     {
       "advertiser": "Tuscan Leveling",
-      "campaign": "Footer Display Campaign",
-      "placement": "footer",
-      "start": "2024-10-01",
-      "end": "2025-03-31",
+      "campaign": "Website Advertising",
       "img": "https://cdn.ymaws.com/tile-assn.site-ym.com/resource/resmgr/advertisements/footer_ads/tuscan_leveling_462x80.jpg",
-      "url": "https://tuscanleveling.com/?utm_source=ntca&utm_medium=display&utm_campaign=footer_ad"
+      "url": "https://tuscanleveling.com/?utm_source=ntca&utm_medium=display&utm_campaign=footer",
+      "start": "2025-01-09",
+      "end": "2026-01-08"
     }
   ]
 }
